@@ -20,7 +20,7 @@
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
             "outputPath": {"base": "docs","browser": ""},
-            "baseHref": "/dostaffkin/",
+            "baseHref": "/my_front-end_project_delivery/",
             "assets": [
               {
                 "glob": "**/*",
