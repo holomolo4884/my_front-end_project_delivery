@@ -19,16 +19,21 @@
           "options": {
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
-            "outputPath": {"base": "docs","browser": ""},
+            "outputPath": {
+              "base": "docs",
+              "browser": ""
+            },
             "baseHref": "/my_front-end_project_delivery/",
+            "deployUrl": "/my_front-end_project_delivery/",
             "assets": [
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/assets"
               }
-            ],
-            "styles": [
-              "src/styles.css"
             ]
           },
           "configurations": {

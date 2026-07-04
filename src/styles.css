@@ -4,19 +4,19 @@
 
 @font-face {
     font-family: "Roboto";
-    src: url("/fonts/Roboto-Regular.ttf");
+    src: url("../public/fonts/Roboto-Regular.ttf");
     font-weight: normal;
 }
 
 @font-face {
     font-family: "Roboto";
-    src: url("/fonts/Roboto-Bold.ttf");
+    src: url("../public/fonts/Roboto-Bold.ttf");
     font-weight: bold;
 }
 
 @font-face {
     font-family: "Roboto";
-    src: url("/fonts/Roboto-Medium.ttf");
+    src: url("../public/fonts/Roboto-Medium.ttf");
     font-weight: 500;
 }
 
